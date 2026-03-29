@@ -3,7 +3,7 @@ type CounterButtonProps = {
   onClick: (event: MouseEvent) => void
 }
 
-const CounterButton = ({ label, onClick }: CounterButtonProps) => (
+const CounterButton = ({ label = 'default label', onClick }: CounterButtonProps) => (
   <button class="counter-button" type="button" onClick={onClick}>
     {label}
   </button>
