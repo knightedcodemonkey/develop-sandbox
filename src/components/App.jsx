@@ -1,0 +1,1 @@
+const Para = () => <p>para</p>
