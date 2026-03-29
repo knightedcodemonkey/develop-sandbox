@@ -2,4 +2,5 @@ button {
   padding: 20px;
   border: 2px dashed green;
   background: orange;
+  cursor: pointer;
 }
