@@ -7,7 +7,7 @@ type CounterButtonProps = {
   onClick: (event: MouseEvent<HTMLButtonElement>) => void
 }
 
-const CounterButton = ({ label, active, onClick }: CounterButtonProps) => (
+const CounterButton = ({ label = 'default', active, onClick }: CounterButtonProps) => (
   <button
     type="button"
     data-active={active ? "true" : "false"}
