@@ -1,1 +1,3 @@
-export const Button = ({ label = "foobar" } : {label: string}) => <button type="button">{label}</button>
+export function Button({ text = "Click me" }) {
+  return <button type="button">{text}</button>;
+}
