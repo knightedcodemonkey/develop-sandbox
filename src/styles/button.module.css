@@ -1,0 +1,48 @@
+.counter-button {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid #3558b8;
+  border-radius: 50%;
+  background: brown;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+}
+
+.counter-button:hover {
+  background: #654321;
+}
+
+.counter-button[data-active='true'] {
+  background: #3558b8;
+  color: #fff;
+}
+
+.counter-button.is-even {
+  border-style: dashed;
+}
+
+.counter-button:focus-visible {
+  outline: 2px solid #6a84d8;
+  outline-offset: 2px;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+}
+
+.counter-button.bounce {
+  animation: bounce 300ms ease;
+}
