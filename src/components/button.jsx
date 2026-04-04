@@ -3,7 +3,7 @@ type CounterButtonProps = {
   onClick?: (event: MouseEvent) => void
 }
 
-const CounterButton = ({ label = '💩', onClick }: CounterButtonProps) => {
+export const CounterButton = ({ label = '💩', onClick }: CounterButtonProps) => {
   let count = 0
   const button = document.createElement('button')
   button.className = 'counter-button'
