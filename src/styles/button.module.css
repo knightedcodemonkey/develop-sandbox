@@ -1,19 +1,22 @@
 .counter-button {
   margin: 0;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 1.25rem;
   border: 1px solid #3558b8;
   border-radius: 50%;
-  background: brown;
+  background: #7F4B1E;
   color: #fff;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 120ms ease;
-  width: 3rem;
-  height: 3rem;
-  display: flex;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-size: 1.25rem;
+  gap: 0.25rem;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
 .counter-button:hover {
