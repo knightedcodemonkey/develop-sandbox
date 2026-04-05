@@ -14,29 +14,17 @@ button {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-button.primary {
+.counter-button.is-even {
   background-color: #007bff;
 }
 
-button.secondary {
-  background-color: #6c757d;
-}
-
-button.primary:hover:not(:disabled) {
+.counter-button.is-even:hover:not(:disabled) {
   background-color: #0056b3;
   box-shadow: 0 4px 8px rgba(0,91,187,0.7);
   transform: translateY(-2px);
 }
 
-button.secondary:hover:not(:disabled) {
-  background-color: #5a6268;
-  box-shadow: 0 4px 8px rgba(92,94,96,0.7);
-  transform: translateY(-2px);
-}
-
-button.primary:active:not(:disabled),
-button.secondary:active:not(:disabled),
-button.clicked {
+.counter-button:active:not(:disabled) {
   background-color: #004085;
   transform: scale(0.95);
   box-shadow: 0 2px 4px rgba(0,64,133,0.8);
@@ -48,29 +36,14 @@ button:disabled {
   box-shadow: none;
 }
 
-.spinner {
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  border-top: 3px solid white;
-  border-radius: 50%;
-  width: 16px;
-  height: 16px;
-  animation: spin 1s linear infinite;
-}
-
-.icon {
-  width: 16px;
-  height: 16px;
+.button-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-text {
   display: inline-block;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
