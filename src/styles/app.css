@@ -1,5 +1,5 @@
 .button {
   cursor: pointer;
   background: red;
-  border: 1px solid blue;
+  border: 1px dotted blue;
 }
