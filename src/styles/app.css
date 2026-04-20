@@ -3,6 +3,6 @@ p {
   color: blue;
 
   &:nth-of-type(1) {
-    color: red;
+    color: orange;
   }
 }
