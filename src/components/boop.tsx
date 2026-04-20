@@ -1,1 +1,1 @@
-export const Boop = () => <p>Boop</p>
+export const Boop = () => <p>boop boop</p>

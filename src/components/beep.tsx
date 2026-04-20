@@ -1,1 +1,1 @@
-export const Beep = () => <p>Beep</p>
+export const Beep = () => <p>beep beeeep</p>
