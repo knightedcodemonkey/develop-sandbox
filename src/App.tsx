@@ -1,6 +1,6 @@
-import '../styles/styles.css'
-import { Boop } from '../components/boop.js'
-import { Beep } from '../components/beep.js'
+import './styles/styles.css'
+import { Boop } from './components/boop.js'
+import { Beep } from './components/beep.js'
 
 const Bop = () => <p>bop</p>
 
