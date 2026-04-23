@@ -1,0 +1,9 @@
+p {
+  margin: 0;
+  color: purple;
+
+  &:nth-of-type(1) {
+    color: orange;
+    background: green;
+  }
+}
