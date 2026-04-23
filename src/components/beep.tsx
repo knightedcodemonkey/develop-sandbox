@@ -1,1 +1,2 @@
-export const Beep = () => <p>beep beeeep</p>
+import '../styles/beep.scss'
+export const Beep = () => <p className="beep">beep beeeep</p>
