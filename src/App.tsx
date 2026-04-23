@@ -1,4 +1,5 @@
 import './styles/styles.css'
+import './styles/override.css'
 import { Boop } from './components/boop.js'
 import { Beep } from './components/beep.js'
 
