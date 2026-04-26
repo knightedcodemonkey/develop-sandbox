@@ -1,3 +1,3 @@
 import '../styles/app.css'
 
-const App = () => <button>foo</button>
+const App = () => <button>foo bar</button>
