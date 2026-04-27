@@ -1,3 +1,9 @@
 import '../styles.css'
+import { OtherButton } from '../components/module.js'
 
-const App = () => <button>component-tb9g-r41m</button>
+const App = () => (
+  <>
+    <OtherButton />
+    <button>component-tb9g-r41m</button>
+  </>
+)
