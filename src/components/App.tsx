@@ -1,4 +1,4 @@
-import '../styles/app.css'
+import '../styles.css'
 
 const App = () => {
   return <button>(develop:sandbox) kmmi-vs99</button>
