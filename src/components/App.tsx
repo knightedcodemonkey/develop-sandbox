@@ -1,4 +1,3 @@
-import '../styles/app.module.css'
 import { List } from '../components/list.js'
 import { Item } from '../components/item.js'
 
