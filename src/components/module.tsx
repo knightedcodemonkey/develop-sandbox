@@ -1,1 +1,1 @@
-export const PP = () => <p>PP+</p>
+export const PP = ({ label = "PP+" }) => <p>{label}</p>
