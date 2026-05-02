@@ -1,6 +1,5 @@
 import '../style.css'
-
-const PP = ({ label = "PP+" }) => <p>{label}</p>
+import { PP } from './pp.js'
 
 const App = () => {
   return <PP label="🚀" />
