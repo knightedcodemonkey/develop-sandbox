@@ -1,6 +1,26 @@
+@keyframes flyAcross {
+  0% {
+    transform: translateX(0) scaleX(1);
+  }
+  45% {
+    transform: translateX(calc(100vw - 3em)) scaleX(1); /* turn just before right edge */
+  }
+  50% {
+    transform: translateX(calc(100vw - 3em)) scaleX(-1); /* flip horizontally */
+  }
+  95% {
+    transform: translateX(0) scaleX(-1);
+  }
+  100% {
+    transform: translateX(0) scaleX(1);
+  }
+}
+
 p {
   color: magenta;
   margin: 0;
   padding: 0;
   font-size: 2em;
+  display: inline-block;
+  animation: flyAcross 4s linear infinite;
 }
