@@ -1,8 +1,11 @@
 import '../styles.css'
 import { Notification } from './notification.js'
+import { Message } from './message.js'
 
 const App = () => {
   return (
-    <Notification>Liftoff 🚀</Notification>
+    <Notification>
+      <Message>Liftoff 🚀</Message>
+    </Notification>
   )
 }

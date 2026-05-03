@@ -1,0 +1,11 @@
+@import url("data:text/css,.notification%20%7B%20outline%3A%206px%20solid%20rgb(255%2C%20190%2C%2050)%3B%20%7D");
+
+.notification {
+  box-shadow:
+    0 0 0 8px rgb(0, 255, 255),
+    0 0 0 16px rgb(255, 0, 255);
+}
+
+.msg {
+  margin: 0;
+}
